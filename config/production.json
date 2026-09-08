@@ -1,0 +1,29 @@
+{
+  "project_name": "maldi-openset-rki-v4.2",
+  "zenodo_record_id": 14562231,
+  "zenodo_doi": "10.5281/zenodo.14562231",
+  "data_license": "CC-BY-4.0",
+  "mass_min": 2000.0,
+  "mass_max": 13000.0,
+  "bin_width": 1.0,
+  "known_min_strains": 5,
+  "sensitivity_min_strains": 3,
+  "outer_folds": 5,
+  "seeds": [20260907, 20260919, 20261001, 20261013, 20261025],
+  "models": ["cosine_centroid", "linear_svm", "rbf_svm", "extra_trees", "xgboost", "cnn1d"],
+  "primary_model": "extra_trees",
+  "known_acceptance_target": 0.95,
+  "bootstrap_replicates": 2000,
+  "preprocessing": {
+    "transform": "sqrt",
+    "smoothing": "SavitzkyGolay",
+    "half_window_size": 10,
+    "baseline": "SNIP",
+    "baseline_iterations": 100,
+    "normalization": "TIC",
+    "peak_snr": 2.0,
+    "peak_half_window_size": 10
+  },
+  "sensitivity_bin_widths": [0.5, 2.0, 5.0]
+}
+

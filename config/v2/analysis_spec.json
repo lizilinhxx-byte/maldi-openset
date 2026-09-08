@@ -1,0 +1,39 @@
+{
+  "schema_version": "2.0.0",
+  "status": "post-result methodological correction and prespecified v2 enhancement",
+  "legacy_analysis_commit": "2293ce52a07e24e507e48814dcd3303bf512c0f3",
+  "feature_sha256": "7a57e01a7ed0adf6b76bf1403192f7988802e230f94a13424f35ce78bfbb4f45",
+  "seeds": [20260907, 20260919, 20261001, 20261013, 20261025],
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 20260919,
+  "coverage_target": 0.95,
+  "corrected_species_rule": "singleton_saved_set_equals_saved_argmax_and_saved_confidence_ge_saved_tau",
+  "corrected_genus_rule": "saved_singleton_genus_set_equals_argmax_of_float32_species_probabilities_summed_by_genus",
+  "primary_ood_names": {
+    "near": "same-genus OOD",
+    "far": "different-genus OOD"
+  },
+  "strain_conformal_sensitivity": "per-run pooled calibration on one mean-probability vector per strain; nominal 95% empirical sensitivity",
+  "source_holdouts": ["FLI-RIE-PC032", "MALDIMESS"],
+  "source_cohort_min_nonheld_strains": 5,
+  "source_cohort_min_held_strains": 2,
+  "reference_baseline": "fit-role strain-template cosine; species score is maximum over its strain templates",
+  "contamination_prevalence": [0.0, 0.25, 0.5, 0.75, 1.0],
+  "contamination_intensity": [0, 1, 2, 4],
+  "write_boundary": [
+    "src/maldi_openset_v2",
+    "config/v2",
+    "protocol/v2",
+    "output/v2",
+    "manuscript/v2",
+    "submission/v2",
+    "tests/v2",
+    "scripts/run_v2_*.py"
+  ],
+  "forbidden_overwrite": [
+    "src/maldi_openset",
+    "output/production",
+    "manuscript/manuscript_draft.md",
+    "submission/maldi_openset_JCM_author_review_package.zip"
+  ]
+}

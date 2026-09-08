@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Please cite the software version used; this initial source deposit does not yet have an archived software DOI."
+title: "MALDI OpenSet analysis code"
+type: software
+authors:
+  - family-names: He
+    given-names: Xiaoxiao
+  - family-names: Li
+    given-names: Zilin
+license: MIT
+repository-code: "https://github.com/lizilinhxx-byte/maldi-openset"

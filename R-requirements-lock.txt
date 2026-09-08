@@ -1,0 +1,6 @@
+R==4.6.1
+MALDIquant==1.22.3
+MALDIquantForeign==0.14.1
+readBrukerFlexData==1.9.3
+jsonlite==2.0.0
+

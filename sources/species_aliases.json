@@ -1,0 +1,2407 @@
+{
+  "alias_map": {
+    "Alkailihalobacillus okuhidensis": "Alkalihalobacillus okuhidensis",
+    "Bacillus amyloliqefaciens": "Bacillus amyloliquefaciens",
+    "Bacillus cereus group sp": "Bacillus cereus",
+    "Bacillus spp": "Bacillus sp.",
+    "Bartonella vinsonii ssp. arupensis": "Bartonella vinsonii",
+    "Brevibacillus sp": "Brevibacillus sp.",
+    "Brucella microtii": "Brucella microti",
+    "Brucella pinnipedalis": "Brucella pinnipedialis",
+    "Brucella sp": "Brucella sp.",
+    "Francisella philomiragia ssp philomiragia": "Francisella philomiragia",
+    "Francisella tularensis ssp. holarctica": "Francisella tularensis",
+    "Francisella tularensis ssp. mediasiatica": "Francisella tularensis",
+    "Francisella tularensis ssp. novicida": "Francisella tularensis",
+    "Francisella tularensis ssp. tularensis": "Francisella tularensis",
+    "Lysinibacillus sp": "Lysinibacillus sp.",
+    "Morganella morganii ssp. morganii": "Morganella morganii",
+    "Morganella morganii ssp. sibonii": "Morganella morganii",
+    "Virgibacillus pantothenticus": "Virgibacillus panthotenticus",
+    "Xenophilus sp": "Xenophilus sp.",
+    "Yersinia sp": "Yersinia sp."
+  },
+  "canonical_counts_match_taxonomy_workbook": true,
+  "canonical_species_count": 264,
+  "raw_species_label_count": 270,
+  "role_semantics": "Eligibility flags overlap by design: 3-4-strain species are primary OOD and sensitivity-known in different analyses. Derive a role per analysis; do not collapse to one mutually exclusive analysis_set column.",
+  "schema_version": "1.0.0",
+  "species": [
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Achromobacter",
+      "n_strains": 6,
+      "ood_singleton": false,
+      "species": "Achromobacter xylosoxidans"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Acinetobacter",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Acinetobacter baumannii"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Acinetobacter",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Acinetobacter lwoffii"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Acinetobacter",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Acinetobacter pittii"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Aeromonas",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Aeromonas hydrophila"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Aeromonas",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Aeromonas veronii"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Alcaligenes",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Alcaligenes faecalis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Alkalihalobacillus",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Alkalihalobacillus clausii"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Alkalihalobacillus",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Alkalihalobacillus halodurans"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Alkalihalobacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Alkalihalobacillus okuhidensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Allofrancisella",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Allofrancisella guangzhouensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bacillus albus"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Bacillus",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Bacillus altitudinis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bacillus alveayuensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Bacillus aminovorans"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Bacillus amyloliquefaciens"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Bacillus",
+      "n_strains": 130,
+      "ood_singleton": false,
+      "species": "Bacillus anthracis"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Bacillus",
+      "n_strains": 20,
+      "ood_singleton": false,
+      "species": "Bacillus atrophaeus"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Bacillus",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Bacillus axarquiensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Bacillus badius"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Bacillus bingmayongensis"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Bacillus",
+      "n_strains": 130,
+      "ood_singleton": false,
+      "species": "Bacillus cereus"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Bacillus",
+      "n_strains": 11,
+      "ood_singleton": false,
+      "species": "Bacillus cytotoxicus"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bacillus ectoiniformans"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bacillus gobiensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bacillus halotolerans"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Bacillus inaquosorum"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bacillus infantis"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Bacillus",
+      "n_strains": 10,
+      "ood_singleton": false,
+      "species": "Bacillus licheniformis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bacillus luti"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bacillus manliponensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bacillus mobilis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Bacillus",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Bacillus mojavensis"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Bacillus",
+      "n_strains": 14,
+      "ood_singleton": false,
+      "species": "Bacillus mycoides"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bacillus nitratireducens"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bacillus pacificus"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Bacillus",
+      "n_strains": 5,
+      "ood_singleton": false,
+      "species": "Bacillus paralicheniformis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bacillus paramycoides"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bacillus paranthracis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bacillus proteolyticus"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Bacillus pseudomycoides"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Bacillus",
+      "n_strains": 36,
+      "ood_singleton": false,
+      "species": "Bacillus pumilus"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Bacillus",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Bacillus safensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bacillus siamensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bacillus sonorensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Bacillus",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Bacillus sp."
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Bacillus",
+      "n_strains": 15,
+      "ood_singleton": false,
+      "species": "Bacillus spizizenii"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Bacillus",
+      "n_strains": 15,
+      "ood_singleton": false,
+      "species": "Bacillus subtilis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bacillus taeanensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bacillus tequilensis"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Bacillus",
+      "n_strains": 20,
+      "ood_singleton": false,
+      "species": "Bacillus thuringiensis"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Bacillus",
+      "n_strains": 16,
+      "ood_singleton": false,
+      "species": "Bacillus toyonensis"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Bacillus",
+      "n_strains": 5,
+      "ood_singleton": false,
+      "species": "Bacillus tropicus"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bacillus vallismortis"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Bacillus",
+      "n_strains": 86,
+      "ood_singleton": false,
+      "species": "Bacillus velezensis"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Bacillus",
+      "n_strains": 8,
+      "ood_singleton": false,
+      "species": "Bacillus wiedmannii"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bacillus xiamenensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bacillus zeae"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bacillus zhangzhouensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bacteroides",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bacteroides fragilis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bartonella",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bartonella bacilliformis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bartonella",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bartonella grahamii"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Bartonella",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Bartonella henselae"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bartonella",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bartonella quintana"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Bartonella",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Bartonella vinsonii"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Brevibacillus",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Brevibacillus parabrevis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Brevibacillus",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Brevibacillus porteri"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Brevibacillus",
+      "n_strains": 6,
+      "ood_singleton": false,
+      "species": "Brevibacillus sp."
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Brucella",
+      "n_strains": 16,
+      "ood_singleton": false,
+      "species": "Brucella abortus"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Brucella",
+      "n_strains": 5,
+      "ood_singleton": false,
+      "species": "Brucella canis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Brucella",
+      "n_strains": 4,
+      "ood_singleton": false,
+      "species": "Brucella ceti"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Brucella",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Brucella inopinata"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Brucella",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Brucella intermedia"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Brucella",
+      "n_strains": 9,
+      "ood_singleton": false,
+      "species": "Brucella melitensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Brucella",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Brucella microti"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Brucella",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Brucella neotomae"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Brucella",
+      "n_strains": 4,
+      "ood_singleton": false,
+      "species": "Brucella ovis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Brucella",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Brucella pinnipedialis"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Brucella",
+      "n_strains": 9,
+      "ood_singleton": false,
+      "species": "Brucella sp."
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Brucella",
+      "n_strains": 4,
+      "ood_singleton": false,
+      "species": "Brucella suis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Brucella",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Brucella vulpis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Burkholderia",
+      "n_strains": 4,
+      "ood_singleton": false,
+      "species": "Burkholderia ambifaria"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Burkholderia",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Burkholderia anthina"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Burkholderia",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Burkholderia arboris"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Burkholderia",
+      "n_strains": 12,
+      "ood_singleton": false,
+      "species": "Burkholderia cenocepacia"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Burkholderia",
+      "n_strains": 8,
+      "ood_singleton": false,
+      "species": "Burkholderia cepacia"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Burkholderia",
+      "n_strains": 48,
+      "ood_singleton": false,
+      "species": "Burkholderia contaminans"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Burkholderia",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Burkholderia diffusa"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Burkholderia",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Burkholderia dolosa"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Burkholderia",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Burkholderia gladioli"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Burkholderia",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Burkholderia glumae"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Burkholderia",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Burkholderia lata"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Burkholderia",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Burkholderia latens"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Burkholderia",
+      "n_strains": 33,
+      "ood_singleton": false,
+      "species": "Burkholderia mallei"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Burkholderia",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Burkholderia metallica"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Burkholderia",
+      "n_strains": 6,
+      "ood_singleton": false,
+      "species": "Burkholderia multivorans"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Burkholderia",
+      "n_strains": 6,
+      "ood_singleton": false,
+      "species": "Burkholderia oklahomensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Burkholderia",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Burkholderia plantarii"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Burkholderia",
+      "n_strains": 20,
+      "ood_singleton": false,
+      "species": "Burkholderia pseudomallei"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Burkholderia",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Burkholderia pseudomultivorans"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Burkholderia",
+      "n_strains": 7,
+      "ood_singleton": false,
+      "species": "Burkholderia puraquae"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Burkholderia",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Burkholderia pyrrocinia"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Burkholderia",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Burkholderia seminalis"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Burkholderia",
+      "n_strains": 7,
+      "ood_singleton": false,
+      "species": "Burkholderia stabilis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Burkholderia",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Burkholderia stagnalis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Burkholderia",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Burkholderia territorii"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Burkholderia",
+      "n_strains": 15,
+      "ood_singleton": false,
+      "species": "Burkholderia thailandensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Burkholderia",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Burkholderia ubonensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Burkholderia",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Burkholderia vietnamiensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Caballeronia",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Caballeronia glathei"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Campylobacter",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Campylobacter jejuni"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Citrobacter",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Citrobacter amalonaticus"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Citrobacter",
+      "n_strains": 4,
+      "ood_singleton": false,
+      "species": "Citrobacter freundii"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Citrobacter",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Citrobacter koseri"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Corynebacterium",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Corynebacterium amycolatum"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Corynebacterium",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Corynebacterium diphtheriae"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Corynebacterium",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Corynebacterium pseudotuberculosis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Corynebacterium",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Corynebacterium ulcerans"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Cronobacter",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Cronobacter sakazakii"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Cutibacterium",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Cutibacterium acnes"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Cytobacillus",
+      "n_strains": 5,
+      "ood_singleton": false,
+      "species": "Cytobacillus firmus"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Cytobacillus",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Cytobacillus horneckiae"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Edwardsiella",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Edwardsiella tarda"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Enterobacter",
+      "n_strains": 11,
+      "ood_singleton": false,
+      "species": "Enterobacter cloacae"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Enterobacter",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Enterobacter hormaechei"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Enterococcus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Enterococcus casseliflavus"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Enterococcus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Enterococcus durans"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Enterococcus",
+      "n_strains": 9,
+      "ood_singleton": false,
+      "species": "Enterococcus faecalis"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Enterococcus",
+      "n_strains": 113,
+      "ood_singleton": false,
+      "species": "Enterococcus faecium"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Enterococcus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Enterococcus gallinarum"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Enterococcus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Enterococcus hirae"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Erwinia",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Erwinia amylovora"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Escherichia",
+      "n_strains": 8,
+      "ood_singleton": false,
+      "species": "Escherichia coli"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Evansella",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Evansella clarkii"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Francisella",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Francisella hispaniensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Francisella",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Francisella noatunensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Francisella",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Francisella orientalis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Francisella",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Francisella philomiragia"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Francisella",
+      "n_strains": 17,
+      "ood_singleton": false,
+      "species": "Francisella tularensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Glutamicibacter",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Glutamicibacter nicotianae"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Haemophilus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Haemophilus influenzae"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Hafnia",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Hafnia alvei"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Heyndrickxia",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Heyndrickxia sporothermodurans"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Inquilinus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Inquilinus limosus"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Klebsiella",
+      "n_strains": 8,
+      "ood_singleton": false,
+      "species": "Klebsiella aerogenes"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Klebsiella",
+      "n_strains": 10,
+      "ood_singleton": false,
+      "species": "Klebsiella michiganensis"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Klebsiella",
+      "n_strains": 6,
+      "ood_singleton": false,
+      "species": "Klebsiella oxytoca"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Klebsiella",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Klebsiella pneumoniae"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Klebsiella",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Klebsiella quasipneumoniae"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Kocuria",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Kocuria palustris"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Leclercia",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Leclercia adecarboxylata"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Lederbergia",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Lederbergia lenta"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Lysinibacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Lysinibacillus endophyticus"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Lysinibacillus",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Lysinibacillus fusiformis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Lysinibacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Lysinibacillus macroides"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Lysinibacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Lysinibacillus pakistanensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Lysinibacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Lysinibacillus sp."
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Lysinibacillus",
+      "n_strains": 6,
+      "ood_singleton": false,
+      "species": "Lysinibacillus sphaericus"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Lysinibacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Lysinibacillus xylanilyticus"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Micrococcus",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Micrococcus luteus"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Moraxella",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Moraxella catarrhalis"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Morganella",
+      "n_strains": 5,
+      "ood_singleton": false,
+      "species": "Morganella morganii"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Neisseria",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Neisseria gonorrhoeae"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Neisseria",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Neisseria meningitidis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Neobacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Neobacillus bataviensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Neobacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Neobacillus cucumis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Niallia",
+      "n_strains": 4,
+      "ood_singleton": false,
+      "species": "Niallia circulans"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Ochrobactrum",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Ochrobactrum anthropi"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Oligella",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Oligella urethralis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Paenibacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Paenibacillus alvei"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Paenibacillus",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Paenibacillus polymyxa"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Pandoraea",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Pandoraea apista"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Pandoraea",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Pandoraea pnomenusa"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Pandoraea",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Pandoraea pulmonicola"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Pantoea",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Pantoea agglomerans"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Paraburkholderia",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Paraburkholderia caledonica"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Paraburkholderia",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Paraburkholderia caribensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Paraburkholderia",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Paraburkholderia hospita"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Paraburkholderia",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Paraburkholderia kururiensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Paraburkholderia",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Paraburkholderia phymatum"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Paraburkholderia",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Paraburkholderia phytofirmans"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Paraburkholderia",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Paraburkholderia tuberum"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Paraburkholderia",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Paraburkholderia xenovorans"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Paracoccus",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Paracoccus yeei"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Peribacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Peribacillus muralis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Peribacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Peribacillus psychrosaccharolyticus"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Peribacillus",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Peribacillus simplex"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Pluralibacter",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Pluralibacter gergoviae"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Priestia",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Priestia endophytica"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Priestia",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Priestia flexa"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Priestia",
+      "n_strains": 8,
+      "ood_singleton": false,
+      "species": "Priestia megaterium"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Proteus",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Proteus mirabilis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Proteus",
+      "n_strains": 4,
+      "ood_singleton": false,
+      "species": "Proteus vulgaris"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Providencia",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Providencia rettgeri"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Providencia",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Providencia stuartii"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Pseudomonas",
+      "n_strains": 12,
+      "ood_singleton": false,
+      "species": "Pseudomonas aeruginosa"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Pseudomonas",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Pseudomonas chlororaphis"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Pseudomonas",
+      "n_strains": 5,
+      "ood_singleton": false,
+      "species": "Pseudomonas putida"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Pseudomonas",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Pseudomonas stutzeri"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Ralstonia",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Ralstonia insidiosa"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Ralstonia",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Ralstonia mannitolilytica"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Ralstonia",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Ralstonia pickettii"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Roseomonas",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Roseomonas gilardii"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Rothia",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Rothia kristinae"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Salibacterium",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Salibacterium salarium"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Salmonella",
+      "n_strains": 5,
+      "ood_singleton": false,
+      "species": "Salmonella enterica"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Serratia",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Serratia grimesii"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Serratia",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Serratia marcescens"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Shigella",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Shigella boydii"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Shigella",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Shigella dysenteriae"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Shigella",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Shigella flexneri"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Shigella",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Shigella sonnei"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Sinomonas",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Sinomonas atrocyanea"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Sphingomonas",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Sphingomonas paucimobilis"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Staphylococcus",
+      "n_strains": 70,
+      "ood_singleton": false,
+      "species": "Staphylococcus aureus"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Staphylococcus",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Staphylococcus capitis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Staphylococcus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Staphylococcus delphini"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Staphylococcus",
+      "n_strains": 4,
+      "ood_singleton": false,
+      "species": "Staphylococcus epidermidis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Staphylococcus",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Staphylococcus haemolyticus"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Staphylococcus",
+      "n_strains": 4,
+      "ood_singleton": false,
+      "species": "Staphylococcus hominis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Staphylococcus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Staphylococcus intermedius"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Staphylococcus",
+      "n_strains": 9,
+      "ood_singleton": false,
+      "species": "Staphylococcus lugdunensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Staphylococcus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Staphylococcus pseudintermedius"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Stenotrophomonas",
+      "n_strains": 11,
+      "ood_singleton": false,
+      "species": "Stenotrophomonas maltophilia"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Stenotrophomonas",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Stenotrophomonas rhizophila"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Streptococcus",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Streptococcus agalactiae"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Streptococcus",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Streptococcus dysgalactiae"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Streptococcus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Streptococcus mitis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Streptococcus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Streptococcus parasanguinis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Streptococcus",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Streptococcus pneumoniae"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Streptococcus",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Streptococcus pyogenes"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Streptococcus",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Streptococcus salivarius"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Streptococcus",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Streptococcus sanguinis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Sutcliffiella",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Sutcliffiella cohnii"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Vibrio",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Vibrio alginolyticus"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Vibrio",
+      "n_strains": 52,
+      "ood_singleton": false,
+      "species": "Vibrio cholerae"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Vibrio",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Vibrio diazotrophicus"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Vibrio",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Vibrio harveyi"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Vibrio",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Vibrio metschnikovii"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Vibrio",
+      "n_strains": 3,
+      "ood_singleton": false,
+      "species": "Vibrio mimicus"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Vibrio",
+      "n_strains": 4,
+      "ood_singleton": false,
+      "species": "Vibrio parahaemolyticus"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Vibrio",
+      "n_strains": 4,
+      "ood_singleton": false,
+      "species": "Vibrio vulnificus"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Virgibacillus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Virgibacillus panthotenticus"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Weizmannia",
+      "n_strains": 4,
+      "ood_singleton": false,
+      "species": "Weizmannia coagulans"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Xenophilus",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Xenophilus sp."
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Yersinia",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Yersinia aldovae"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Yersinia",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Yersinia aleksiciae"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Yersinia",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Yersinia bercovieri"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Yersinia",
+      "n_strains": 56,
+      "ood_singleton": false,
+      "species": "Yersinia enterocolitica"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Yersinia",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Yersinia entomophaga"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Yersinia",
+      "n_strains": 4,
+      "ood_singleton": false,
+      "species": "Yersinia frederiksenii"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Yersinia",
+      "n_strains": 7,
+      "ood_singleton": false,
+      "species": "Yersinia intermedia"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Yersinia",
+      "n_strains": 5,
+      "ood_singleton": false,
+      "species": "Yersinia kristensenii"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Yersinia",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Yersinia massiliensis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": true,
+      "genus": "Yersinia",
+      "n_strains": 4,
+      "ood_singleton": false,
+      "species": "Yersinia mollaretii"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Yersinia",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Yersinia nurmii"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Yersinia",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Yersinia pekkanenii"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Yersinia",
+      "n_strains": 19,
+      "ood_singleton": false,
+      "species": "Yersinia pestis"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Yersinia",
+      "n_strains": 24,
+      "ood_singleton": false,
+      "species": "Yersinia pseudotuberculosis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Yersinia",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Yersinia rohdei"
+    },
+    {
+      "eligible_primary_known": true,
+      "eligible_primary_ood": false,
+      "eligible_sensitivity_known": true,
+      "genus": "Yersinia",
+      "n_strains": 9,
+      "ood_singleton": false,
+      "species": "Yersinia ruckeri"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Yersinia",
+      "n_strains": 2,
+      "ood_singleton": false,
+      "species": "Yersinia similis"
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Yersinia",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Yersinia sp."
+    },
+    {
+      "eligible_primary_known": false,
+      "eligible_primary_ood": true,
+      "eligible_sensitivity_known": false,
+      "genus": "Yersinia",
+      "n_strains": 1,
+      "ood_singleton": true,
+      "species": "Yersinia wautersii"
+    }
+  ]
+}
